@@ -50,5 +50,5 @@ rails --version
 # tester 
 rails new blog
 cd blog 
-rails -s -b 192.168.50.200
+rails s -b 192.168.50.200
 ####
