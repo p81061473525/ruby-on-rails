@@ -1,3 +1,4 @@
+#!/bin/bash
 # centos7 安裝
 # https://guides.rubyonrails.org/getting_started.html
 
