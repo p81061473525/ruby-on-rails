@@ -1,12 +1,18 @@
 #!/bin/bash
-# centos7 安裝
+# centos7 安裝版本
+
+# 前置區域
+# set -e 
+# set -x 
+
+# 按照官方教學安裝
 # https://guides.rubyonrails.org/getting_started.html
 
 # ruby
 cd ~
 command curl -sSL https://rvm.io/mpapis.asc | sudo gpg2 --import -
 command curl -sSL https://rvm.io/pkuczynski.asc | sudo gpg2 --import -
-\curl -sSL https://get.rvm.io | bash -s stable
+\curl -ksSL https://get.rvm.io | bash -s stable
 source /etc/profile.d/rvm.sh
 rvm install ruby
 ruby -v
